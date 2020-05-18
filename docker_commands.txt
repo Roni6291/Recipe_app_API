@@ -1,0 +1,5 @@
+docker build .
+docker-compose run .
+
+doker-compose run app sh -c "django-admin.py startproject recipebox ."
+(inside /app in WORKDIR mentioned in Dockerfile)
