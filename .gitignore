@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+#miscellaneos files
+.travis.yml
+docker_commands.txt
+.flake8
