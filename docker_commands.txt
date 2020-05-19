@@ -3,3 +3,5 @@ docker-compose run .
 
 doker-compose run app sh -c "django-admin.py startproject recipebox ."
 (inside /app in WORKDIR mentioned in Dockerfile)
+
+docker-compose run app sh -c "python manage.py test && flake8"
